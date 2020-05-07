@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CvLab.MicroserviceTemplate2": {
+      "commandName": "Project",
+      "commandLineArgs": "--config-name \"dev-config\" --consul-address \"http://localhost:8500\" --create-default-config true"
+    }
+  }
+}
