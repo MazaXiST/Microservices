@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CvLab.MicroserviceTemplate1</name>
+    </assembly>
+    <members>
+        <member name="T:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration">
+            <summary>
+                Service configuration
+            </summary>
+        </member>
+        <member name="P:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration.FineSagaStorage">
+            <summary>
+                Путь для хранения саг
+            </summary>
+        </member>
+        <member name="P:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration.ServiceBus">
+            <summary>
+                настройки подключения к шине данных
+            </summary>
+        </member>
+        <member name="P:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration.Seq">
+            <summary>
+                Конфигурация логирования
+            </summary>
+        </member>
+        <member name="P:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration.LogPath">
+            <summary>
+                Конфигурация логирования
+            </summary>
+        </member>
+        <member name="M:CvLab.MicroserviceTemplate1.Config.ServiceConfiguration.Init">
+            <summary>
+                Конфиг по умолчанию, в нем нужно инициализировать массивы
+                Этот метод вызывается при создании конфига по умолчанию автоматически при использовании AddConsulJson
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CvLab.MicroserviceTemplate1.Program.Main(System.String,System.Uri,System.Boolean,System.String,System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="consulAddress">Consul connection configuration</param>
+             <param name="createDefaultConfig">If <paramref name="configName"/> if not exist, create it at Consul</param>
+             <param name="configName">Config name for this instance of Platform.Estate.Loudspeaker service</param>
+             <param name="consulToken">Consul token if one exists</param>
+             <param name="servicePort">Port at which web services, such as prometheus or rest api, will be available</param>
+             <returns></returns>
+        </member>
+        <member name="M:CvLab.MicroserviceTemplate1.Service.AppHost.#ctor(CvLab.MicroserviceTemplate1.Config.ServiceConfiguration)">
+            <summary>
+                Creates application host from container
+            </summary>
+            <param name="bus"></param>
+            <param name="metricServer"></param>
+            <param name="appConfig"></param>
+        </member>
+    </members>
+</doc>

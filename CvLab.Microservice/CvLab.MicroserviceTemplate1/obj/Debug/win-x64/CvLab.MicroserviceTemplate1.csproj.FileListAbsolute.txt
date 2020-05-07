@@ -1,0 +1,17 @@
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\hostpolicy.dll
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\hostfxr.dll
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.exe
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.deps.json
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.runtimeconfig.json
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.runtimeconfig.dev.json
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.dll
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.pdb
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\Deployment\CvLab.MicroserviceTemplate1\win-x64\CvLab.MicroserviceTemplate1.xml
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.csproj.CoreCompileInputs.cache
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.AssemblyInfoInputs.cache
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.AssemblyInfo.cs
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.csproj.CopyComplete
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.dll
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.xml
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.pdb
+C:\Users\d.morzhakov\source\repos\CvLab.MicroService\CvLab.Microservice\CvLab.MicroserviceTemplate1\obj\Debug\win-x64\CvLab.MicroserviceTemplate1.csprojAssemblyReference.cache

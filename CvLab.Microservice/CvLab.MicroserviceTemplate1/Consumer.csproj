@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>CvLab.MicroserviceTemplate1.Program</StartupObject>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>latest</LangVersion>
+    <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>true</Optimize>
+    <OutputPath>..\Deployment\CvLab.MicroserviceTemplate1</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RailOCR|AnyCPU'">
+	  <Optimize>false</Optimize>
+	  <OutputPath>..\Deployment\CvLab.MicroserviceTemplate1</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+    <OutputPath>..\Deployment\CvLab.MicroserviceTemplate1</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anotar.Serilog.Fody" Version="4.6.7" />
+    <PackageReference Include="Consul" Version="0.7.2.6" />
+    <PackageReference Include="CvLab.Framework.Consul" Version="1.0.1-dev" />
+    <PackageReference Include="CvLab.Framework.FineSaga" Version="1.0.1-dev" />
+    <PackageReference Include="CvLab.Framework.Rebus" Version="1.0.6.5" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0-preview7.19362.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.0-preview6.19304.6" />
+    <PackageReference Include="prometheus-net" Version="3.1.4" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="3.1.4" />
+    <PackageReference Include="Rebus.ServiceProvider" Version="4.0.2" />
+    <PackageReference Include="Serilog" Version="2.9.0-dev-01124" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3" />
+    <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.1" />
+    <PackageReference Include="Serilog.Exceptions" Version="5.0.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="3.0.0-dev-00019" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.1-dev-00209" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.2-dev-00802" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0-dev-00847" />
+    <PackageReference Include="Serilog.Sinks.Literate" Version="3.0.1-dev-00044" />
+    <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="2.2.1-dev-00755" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.1-dev-00771" />
+    <PackageReference Include="Serilog.Sinks.RollingFileSizeLimit" Version="1.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="4.0.1-dev-00159" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.2.0-alpha.19174.3" />
+    <PackageReference Include="System.CommandLine.Experimental" Version="0.2.0-alpha.19174.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0-preview6.19304.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Subdomain\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+</Project>
